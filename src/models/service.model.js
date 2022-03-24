@@ -33,6 +33,6 @@ serviceSchema.plugin(toJSON);
 /**
  * @typedef Order
  */
-const Order = mongoose.model('Service', serviceSchema);
+const Service = mongoose.model('Service', serviceSchema);
 
-module.exports = Order;
+module.exports = Service;

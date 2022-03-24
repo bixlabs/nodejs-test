@@ -3,7 +3,6 @@ const { toJSON } = require('./plugins');
 
 const orderSchema = mongoose.Schema(
   {
-    _id: mongoose.Schema.Types.ObjectId,
     customer: {
       firstName: { type: String },
       lastName: { type: String },

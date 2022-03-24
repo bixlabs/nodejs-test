@@ -3,7 +3,6 @@ const { toJSON } = require('./plugins');
 
 const serviceSchema = mongoose.Schema(
   {
-    _id: mongoose.Schema.Types.ObjectId,
     code: {
       type: String,
       required: true,

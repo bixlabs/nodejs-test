@@ -2,6 +2,12 @@
 
 ## Installation
 
+Install frontend project (for docker-compose orchestration):
+
+```bash
+git submodule update --init --recursive
+```
+
 Install the dependencies:
 
 ```bash
@@ -31,13 +37,13 @@ migrate up
 ```
 **Make sure to SELECT the migration with SPACE_BAR key and then hit enter.**
 
-Running in production:
+## Running in production:
 
 ```bash
 yarn start
 ```
 
-Testing:
+## Testing:
 
 ```bash
 # run all tests
@@ -50,7 +56,7 @@ yarn test:watch
 yarn coverage
 ```
 
-Linting:
+## Linting:
 
 ```bash
 # run ESLint

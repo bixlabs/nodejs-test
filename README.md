@@ -33,7 +33,7 @@ Running migrations:
 After running docker you have to make sure that the migrations are run otherwise
 the data for services won't be there, running
 ```bash
-migrate up
+./node_modules/.bin/migrate up --md migrations
 ```
 **Make sure to SELECT the migration with SPACE_BAR key and then hit enter.**
 

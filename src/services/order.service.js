@@ -1,5 +1,5 @@
 const httpStatus = require('http-status');
-const { mongoose } = require('mongoose');
+const mongoose = require('mongoose');
 const ApiError = require('../utils/ApiError');
 const Order = require('../models/order.model');
 

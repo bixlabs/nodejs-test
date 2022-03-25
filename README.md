@@ -22,6 +22,15 @@ Running locally:
 yarn docker:dev
 ```
 
+Running migrations:
+
+After running docker you have to make sure that the migrations are run otherwise
+the data for services won't be there, running
+```bash
+migrate up
+```
+**Make sure to SELECT the migration with SPACE_BAR key and then hit enter.**
+
 Running in production:
 
 ```bash

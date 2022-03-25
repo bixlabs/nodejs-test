@@ -5,7 +5,7 @@ services:
     build: .
     image: node-app
     environment:
-      - MONGODB_URL=mongodb://mongodb:27017/node-boilerplate
+      - MONGODB_URL=mongodb://mongodb:27017/test-assessment-db
     ports:
       - '3000:3000'
     depends_on:
@@ -23,6 +23,12 @@ services:
       - dbdata:/data/db
     networks:
       - node-network
+  frontend:
+    build: reacj-js-frontend-test/
+    ports:
+      - '3001:3000'
+    environment:
+      - REACT_APP_BACKEND_URL=http://node-app:3000/v1
 
 volumes:
   dbdata:

@@ -1,0 +1,3 @@
+[submodule "reacj-js-frontend-test"]
+	path = reacj-js-frontend-test
+	url = git@github.com:bixlabs/reacj-js-frontend-test.git

@@ -37,11 +37,9 @@ migrate up
 ```
 **Make sure to SELECT the migration with SPACE_BAR key and then hit enter.**
 
-## Running in production:
+## Open up the app in the Browser
 
-```bash
-yarn start
-```
+Navigate to `http://localhost:3001`
 
 ## Testing:
 

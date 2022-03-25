@@ -45,6 +45,9 @@ yarn start
 
 ## Testing:
 
+Have in mind that for running test the project must be running as some of them use the database
+(integration tests).
+
 ```bash
 # run all tests
 yarn test
